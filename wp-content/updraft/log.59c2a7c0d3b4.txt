@@ -1,0 +1,134 @@
+0000.000 (0) Opened log file at time: Mon, 14 Dec 2020 09:46:17 +0000 on https://geliosfera.appservice.dev
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.42 WP: 5.5.3 PHP: 7.2.24-0ubuntu0.18.04.6 (fpm-fcgi, Linux lemp-s-1vcpu-3gb-ams3-01 4.15.0-99-generic #100-Ubuntu SMP Wed Apr 22 20:32:56 UTC 2020 x86_64) MySQL: 5.7.30-0ubuntu0.18.04.1 WPLANG: ru_RU Server: nginx/1.14.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 52.9M | 8M) multisite: N openssl: OpenSSL 1.1.1  11 Sep 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.001 (0) Free space on disk containing Updraft's temporary directory: 4130.1 MB
+0000.003 (0) Tasks: Backup files: 0 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.006 (0) Requesting semaphore lock (d) (apparently not via scheduler)
+0000.012 (0) Set semaphore last lock (d) time to 2020-12-14 09:46:17
+0000.012 (0) Semaphore lock (d) complete
+0000.014 (0) Backup run: resumption=0, nonce=59c2a7c0d3b4, file_nonce=59c2a7c0d3b4 begun at=1607939177 (0s ago), job type=backup
+0000.016 (0) Scheduling a resumption (1) after 300 seconds (1607939477) in case this run gets aborted
+0000.028 (0) This backup run is not intended for files - skipping
+0000.030 (0) Beginning creation of database dump (WordPress DB)
+0000.030 (0) Couldn't get the sql_mode value (N;)
+0000.031 (0) SQL compatibility mode successfully changed to 
+0000.032 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0000.091 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1249 bytes total)
+0000.094 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0000.104 (0) Table wp_options: Total expected rows (approximate): 278
+0000.135 (0) Table wp_options: Rows added in this batch (next record: 2361): 278 (uncompressed bytes in this segment=640805) in 0.03 seconds
+0000.139 (0) Table wp_options: finishing file(s) (2, 149.1 KB)
+0000.140 (0) Table wp_users: Total expected rows (approximate): 0
+0000.142 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1394) in 0.00 seconds
+0000.144 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0000.146 (0) Table wp_usermeta: Total expected rows (approximate): 50
+0000.147 (0) Table wp_usermeta: Rows added in this batch (next record: 51): 50 (uncompressed bytes in this segment=7963) in 0.00 seconds
+0000.149 (0) Table wp_usermeta: finishing file(s) (2, 2.8 KB)
+0000.151 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0000.154 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.00 seconds
+0000.157 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0000.158 (0) Table wp_comments: Total expected rows (approximate): 1
+0000.159 (0) Table wp_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1722) in 0.00 seconds
+0000.161 (0) Table wp_comments: finishing file(s) (2, 0.5 KB)
+0000.163 (0) Table wp_links: Total expected rows (approximate): 0
+0000.166 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1310) in 0.00 seconds
+0000.168 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0000.170 (0) Table wp_postmeta: Total expected rows (approximate): 3956
+0000.224 (0) Table wp_postmeta: Rows added in this batch (next record: 4673): 4614 (uncompressed bytes in this segment=997654) in 0.05 seconds
+0000.228 (0) Table wp_postmeta: finishing file(s) (2, 85.6 KB)
+0000.230 (0) Table wp_posts: Total expected rows (approximate): 765
+0000.272 (0) Table wp_posts: Rows added in this batch (next record: 843): 808 (uncompressed bytes in this segment=1456681) in 0.04 seconds
+0000.275 (0) Table wp_posts: finishing file(s) (2, 66.1 KB)
+0000.277 (0) Table wp_term_relationships: Total expected rows (approximate): 55
+0000.279 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 59 (uncompressed bytes in this segment=1518) in 0.00 seconds
+0000.281 (0) Table wp_term_relationships: finishing file(s) (2, 0.5 KB)
+0000.282 (0) Table wp_term_taxonomy: Total expected rows (approximate): 7
+0000.284 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 19): 8 (uncompressed bytes in this segment=1161) in 0.00 seconds
+0000.286 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0000.288 (0) Table wp_termmeta: Total expected rows (approximate): 17
+0000.289 (0) Table wp_termmeta: Rows added in this batch (next record: 44): 20 (uncompressed bytes in this segment=3240) in 0.00 seconds
+0000.291 (0) Table wp_termmeta: finishing file(s) (2, 0.8 KB)
+0000.293 (0) Table wp_terms: Total expected rows (approximate): 7
+0000.294 (0) Table wp_terms: Rows added in this batch (next record: 19): 8 (uncompressed bytes in this segment=1439) in 0.00 seconds
+0000.296 (0) Table wp_terms: finishing file(s) (2, 0.8 KB)
+0000.297 (0) Table wp_duplicator_packages: Total expected rows (approximate): 3
+0000.299 (0) Table wp_duplicator_packages: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=18406) in 0.00 seconds
+0000.301 (0) Table wp_duplicator_packages: finishing file(s) (2, 2.7 KB)
+0000.303 (0) Table wp_wpfm_backup: Total expected rows (approximate): 0
+0000.305 (0) Table wp_wpfm_backup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=514) in 0.00 seconds
+0000.307 (0) Table wp_wpfm_backup: finishing file(s) (2, 0.3 KB)
+0000.312 (0) Table wp_yoast_indexable: Total expected rows (approximate): 788
+0000.349 (0) Table wp_yoast_indexable: Rows added in this batch (next record: 815): 783 (uncompressed bytes in this segment=521321) in 0.04 seconds
+0000.353 (0) Table wp_yoast_indexable: finishing file(s) (2, 55 KB)
+0000.355 (0) Table wp_yoast_indexable_hierarchy: Total expected rows (approximate): 788
+0000.359 (0) Table wp_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 790 (uncompressed bytes in this segment=15361) in 0.00 seconds
+0000.361 (0) Table wp_yoast_indexable_hierarchy: finishing file(s) (2, 2.5 KB)
+0000.363 (0) Table wp_yoast_migrations: Total expected rows (approximate): 18
+0000.365 (0) Table wp_yoast_migrations: Rows added in this batch (next record: 18): 18 (uncompressed bytes in this segment=1074) in 0.00 seconds
+0000.367 (0) Table wp_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0000.369 (0) Table wp_yoast_primary_term: Total expected rows (approximate): 7
+0000.371 (0) Table wp_yoast_primary_term: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=1606) in 0.00 seconds
+0000.373 (0) Table wp_yoast_primary_term: finishing file(s) (2, 0.7 KB)
+0000.374 (0) Table wp_yoast_seo_links: Total expected rows (approximate): 1684
+0000.394 (0) Table wp_yoast_seo_links: Rows added in this batch (next record: 6528): 1695 (uncompressed bytes in this segment=240005) in 0.02 seconds
+0000.397 (0) Table wp_yoast_seo_links: finishing file(s) (2, 13.7 KB)
+0000.399 (0) backup_2020-12-14-1246_geliosferaappservicedev_59c2a7c0d3b4-db-table-wp_options.table.tmpr2362.gz (1/19): adding to final database dump
+0000.426 (0) backup_2020-12-14-1246_geliosferaappservicedev_59c2a7c0d3b4-db-table-wp_options.table.gz (2/19): adding to final database dump
+0000.428 (0) backup_2020-12-14-1246_geliosferaappservicedev_59c2a7c0d3b4-db-table-wp_users.table.tmpr2.gz (3/19): adding to final database dump
+0000.429 (0) backup_2020-12-14-1246_geliosferaappservicedev_59c2a7c0d3b4-db-table-wp_users.table.gz (4/19): adding to final database dump
+0000.429 (0) backup_2020-12-14-1246_geliosferaappservicedev_59c2a7c0d3b4-db-table-wp_usermeta.table.tmpr52.gz (5/19): adding to final database dump
+0000.430 (0) backup_2020-12-14-1246_geliosferaappservicedev_59c2a7c0d3b4-db-table-wp_usermeta.table.gz (6/19): adding to final database dump
+0000.431 (0) backup_2020-12-14-1246_geliosferaappservicedev_59c2a7c0d3b4-db-table-wp_commentmeta.table.tmpr0.gz (7/19): adding to final database dump
+0000.432 (0) backup_2020-12-14-1246_geliosferaappservicedev_59c2a7c0d3b4-db-table-wp_commentmeta.table.gz (8/19): adding to final database dump
+0000.432 (0) backup_2020-12-14-1246_geliosferaappservicedev_59c2a7c0d3b4-db-table-wp_comments.table.tmpr0.gz (9/19): adding to final database dump
+0000.433 (0) backup_2020-12-14-1246_geliosferaappservicedev_59c2a7c0d3b4-db-table-wp_comments.table.gz (10/19): adding to final database dump
+0000.434 (0) backup_2020-12-14-1246_geliosferaappservicedev_59c2a7c0d3b4-db-table-wp_links.table.tmpr0.gz (11/19): adding to final database dump
+0000.434 (0) backup_2020-12-14-1246_geliosferaappservicedev_59c2a7c0d3b4-db-table-wp_links.table.gz (12/19): adding to final database dump
+0000.435 (0) backup_2020-12-14-1246_geliosferaappservicedev_59c2a7c0d3b4-db-table-wp_postmeta.table.tmpr4674.gz (13/19): adding to final database dump
+0000.457 (0) backup_2020-12-14-1246_geliosferaappservicedev_59c2a7c0d3b4-db-table-wp_postmeta.table.gz (14/19): adding to final database dump
+0000.459 (0) backup_2020-12-14-1246_geliosferaappservicedev_59c2a7c0d3b4-db-table-wp_posts.table.tmpr844.gz (15/19): adding to final database dump
+0000.482 (0) backup_2020-12-14-1246_geliosferaappservicedev_59c2a7c0d3b4-db-table-wp_posts.table.gz (16/19): adding to final database dump
+0000.483 (0) backup_2020-12-14-1246_geliosferaappservicedev_59c2a7c0d3b4-db-table-wp_term_relationships.table.tmpr100001.gz (17/19): adding to final database dump
+0000.484 (0) backup_2020-12-14-1246_geliosferaappservicedev_59c2a7c0d3b4-db-table-wp_term_relationships.table.gz (18/19): adding to final database dump
+0000.485 (0) backup_2020-12-14-1246_geliosferaappservicedev_59c2a7c0d3b4-db-table-wp_term_taxonomy.table.tmpr20.gz (19/19): adding to final database dump
+0000.486 (0) backup_2020-12-14-1246_geliosferaappservicedev_59c2a7c0d3b4-db-table-wp_term_taxonomy.table.gz (20/19): adding to final database dump
+0000.486 (0) backup_2020-12-14-1246_geliosferaappservicedev_59c2a7c0d3b4-db-table-wp_termmeta.table.tmpr45.gz (21/19): adding to final database dump
+0000.487 (0) backup_2020-12-14-1246_geliosferaappservicedev_59c2a7c0d3b4-db-table-wp_termmeta.table.gz (22/19): adding to final database dump
+0000.488 (0) backup_2020-12-14-1246_geliosferaappservicedev_59c2a7c0d3b4-db-table-wp_terms.table.tmpr20.gz (23/19): adding to final database dump
+0000.489 (0) backup_2020-12-14-1246_geliosferaappservicedev_59c2a7c0d3b4-db-table-wp_terms.table.gz (24/19): adding to final database dump
+0000.489 (0) backup_2020-12-14-1246_geliosferaappservicedev_59c2a7c0d3b4-db-table-wp_duplicator_packages.table.tmpr4.gz (25/19): adding to final database dump
+0000.491 (0) backup_2020-12-14-1246_geliosferaappservicedev_59c2a7c0d3b4-db-table-wp_duplicator_packages.table.gz (26/19): adding to final database dump
+0000.492 (0) backup_2020-12-14-1246_geliosferaappservicedev_59c2a7c0d3b4-db-table-wp_wpfm_backup.table.tmpr0.gz (27/19): adding to final database dump
+0000.492 (0) backup_2020-12-14-1246_geliosferaappservicedev_59c2a7c0d3b4-db-table-wp_wpfm_backup.table.gz (28/19): adding to final database dump
+0000.493 (0) backup_2020-12-14-1246_geliosferaappservicedev_59c2a7c0d3b4-db-table-wp_yoast_indexable.table.tmpr816.gz (29/19): adding to final database dump
+0000.504 (0) backup_2020-12-14-1246_geliosferaappservicedev_59c2a7c0d3b4-db-table-wp_yoast_indexable.table.gz (30/19): adding to final database dump
+0000.505 (0) backup_2020-12-14-1246_geliosferaappservicedev_59c2a7c0d3b4-db-table-wp_yoast_indexable_hierarchy.table.tmpr1001.gz (31/19): adding to final database dump
+0000.506 (0) backup_2020-12-14-1246_geliosferaappservicedev_59c2a7c0d3b4-db-table-wp_yoast_indexable_hierarchy.table.gz (32/19): adding to final database dump
+0000.507 (0) backup_2020-12-14-1246_geliosferaappservicedev_59c2a7c0d3b4-db-table-wp_yoast_migrations.table.tmpr19.gz (33/19): adding to final database dump
+0000.507 (0) backup_2020-12-14-1246_geliosferaappservicedev_59c2a7c0d3b4-db-table-wp_yoast_migrations.table.gz (34/19): adding to final database dump
+0000.508 (0) backup_2020-12-14-1246_geliosferaappservicedev_59c2a7c0d3b4-db-table-wp_yoast_primary_term.table.tmpr10.gz (35/19): adding to final database dump
+0000.509 (0) backup_2020-12-14-1246_geliosferaappservicedev_59c2a7c0d3b4-db-table-wp_yoast_primary_term.table.gz (36/19): adding to final database dump
+0000.509 (0) backup_2020-12-14-1246_geliosferaappservicedev_59c2a7c0d3b4-db-table-wp_yoast_seo_links.table.tmpr6529.gz (37/19): adding to final database dump
+0000.514 (0) backup_2020-12-14-1246_geliosferaappservicedev_59c2a7c0d3b4-db-table-wp_yoast_seo_links.table.gz (38/19): adding to final database dump
+0000.518 (0) backup_2020-12-14-1246_geliosferaappservicedev_59c2a7c0d3b4-db.gz: finished writing out complete database file (368 KB)
+0000.527 (0) Total database tables backed up: 19 (backup_2020-12-14-1246_geliosferaappservicedev_59c2a7c0d3b4-db.gz, size: 389459, sha1: 7721edd62610bba24910db99c4ddf1f071392fc9, sha256: 0187ee05a5fa36113bf67b3e800519479fa540e595ce11a6d1ab9fae4f27b1fb)
+0000.530 (0) backup_2020-12-14-1246_geliosferaappservicedev_59c2a7c0d3b4-db.gz: db: This file has not yet been successfully uploaded: will queue
+0000.531 (0) Saving backup history. Total backup size: 380.3 KB
+0000.532 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0000.534 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0000.534 (0) No remote despatch: user chose no remote backup service
+0000.535 (0) Recording as successfully uploaded: backup_2020-12-14-1246_geliosferaappservicedev_59c2a7c0d3b4-db.gz
+0000.537 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0000.538 (0) Number of backup sets in history: 1; groups (db): 1
+0000.538 (0) Examining (for databases) backup set with group_id=0, nonce=59c2a7c0d3b4, datestamp=1607939177 (Dec 14 2020 09:46:17)
+0000.539 (0) This backup set is the backup set just made, so will not be deleted.
+0000.539 (0) Number of backup sets in history: 1; groups (files): 1
+0000.540 (0) Examining (for files) backup set with nonce=59c2a7c0d3b4, datestamp=1607939177 (Dec 14 2020 09:46:17)
+0000.540 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.540 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0000.542 (0) Resume backup (59c2a7c0d3b4, 0): finish run
+0000.544 (0) Decremented the semaphore (d) by 1
+0000.544 (0) Semaphore (d) unlocked
+0000.545 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0000.546 (0) The backup apparently succeeded and is now complete
+0000.547 (0) No email will/can be sent - the user has not configured an email address.
+0000.548 (0) Резервное копирование успешно завершено
